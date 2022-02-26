@@ -1,0 +1,12 @@
+.overveiw_title {
+  font-size: 27px;
+  color: black;
+  margin: 30px 0px;
+  font-weight: 700;
+}
+
+.overveiw_decription {
+  font-size: 25px;
+  font-weight: 300;
+  color: gray;
+}

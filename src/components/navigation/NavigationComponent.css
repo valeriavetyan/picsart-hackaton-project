@@ -1,0 +1,44 @@
+.academy_logo {
+  width: 250px;
+  /* margin-top: 1rem; */
+}
+
+@media only screen and (max-width: 320px) {
+  .academy_logo {
+    width: 200px;
+  }
+}
+
+.navigation_link {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 40px 10px 0px;
+}
+
+.navigation_link:hover {
+  color: cyan;
+  text-underline-position: under;
+  text-decoration: cyan underline;
+}
+
+.navigation_signin_button {
+  height: fit-content;
+  padding: 5px 35px !important;
+  background-color: transparent !important;
+  border: 1px solid white !important;
+  color: white !important;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.navigation_signin_button:hover {
+  background-color: white !important;
+  color: #4b8cdb !important;
+  border: 1px solid white !important;
+}
